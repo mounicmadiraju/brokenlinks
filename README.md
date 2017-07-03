@@ -7,6 +7,6 @@ Using Python to crawl Webpages via sitemap and checking broken links for every p
 
 # How to run
 1. Install beautifulsoup4 [Python library] and 
-1. Specifying the target sitemap: request = build_request("https://www.jobstreet.com.my/career-resources/page-sitemap.xml")
+1. Specifying the target sitemap in broken_links.py file @ [request = build_request("https://www.jobstreet.com.my/career-resources/page-sitemap.xml")]
 2. Run the command "python broken_links.py"
 3. To stop the program while executing,just Use "ctrl+c"
