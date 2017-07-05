@@ -13,7 +13,7 @@ shutdown_event = None
 GAME_OVER = 'game over'
 
 def build_request(url, data=None, headers={}):
-    headers['User-Agent'] = 'jobstreet'
+    headers['User-Agent'] = 'Mozilla/5.0'
     return Request(url, data=data, headers=headers)
 
 def ctrl_c(signum, frame):
