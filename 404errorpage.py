@@ -10,7 +10,7 @@ for n in xrange(100):
         req = urllib2.Request(fullURL)
         resp = urllib2.urlopen(req)
         if resp.getcode() == 404:
-            
+            # printing 404 error links
             print ("404 Found!")
         else:
             
